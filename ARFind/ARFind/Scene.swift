@@ -11,28 +11,28 @@ import ARKit
 import GameplayKit
 class Scene: SKScene {
     
-    let remainingDoraNode = SKLabelNode()
+    let labelTitleNode = SKLabelNode()
     
-    var doraCreated = 0
-    var doraRemains = 0{
+    var createNodeCount = 0
+    var currentNodeCount = 0{
         didSet{
-            remainingDoraNode.text = "\(doraRemains) in your room"
+            labelTitleNode.text = "\(currentNodeCount) in your room"
         }
     }
-    var doraGeneTimer:Timer?
+    var myTimer:Timer?
     
     //定时生成对象
-    func generateDora(){
-        if doraRemains == 10{
-            doraGeneTimer?.invalidate()
-            doraGeneTimer = nil
+    func createNode(){
+        if currentNodeCount == 10{
+            myTimer?.invalidate()
+            myTimer = nil
             return
         }
         
-        doraRemains += 1
-        doraCreated += 1
+        currentNodeCount += 1
+        createNodeCount += 1
         
-        //生成对象
+        //----------生成对象
         guard let sceneView = self.view as? ARSKView else { return }
         //生成随机位置
         let randNumber = GKRandomSource.sharedRandom()
@@ -53,14 +53,14 @@ class Scene: SKScene {
     override func didMove(to view: SKView) {
         // Setup your scene here
         
-        remainingDoraNode.fontSize = 25
-        remainingDoraNode.color = .white
-        remainingDoraNode.position = CGPoint(x: 0, y: view.frame.midY - 50)
-        addChild(remainingDoraNode)
-        doraRemains = 0
+        labelTitleNode.fontSize = 25
+        labelTitleNode.color = .white
+        labelTitleNode.position = CGPoint(x: 0, y: view.frame.midY - 50)
+        addChild(labelTitleNode)
+        currentNodeCount = 0
         
-        doraGeneTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { timer in
-            self.generateDora()
+        myTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { timer in
+            self.createNode()
         })
     }
     
@@ -89,19 +89,19 @@ class Scene: SKScene {
         //ar交互
         guard let touch = touches.first else { return }
         let location = touch.location(in: self)
-        let hittedDora = nodes(at: location)
-        if let dora = hittedDora.first{
-            doraRemains -= 1
+        let currentNodes = nodes(at: location)
+        if let node = currentNodes.first{
+            currentNodeCount -= 1
             //放大渐变消失
             let scaleOut = SKAction.scale(by: 2, duration: 0.2)
             let fadeOut = SKAction.fadeOut(withDuration: 0.2)
             let group = SKAction.group([scaleOut, fadeOut])
             let sequence = SKAction.sequence([group, SKAction.removeFromParent()])
             
-            dora.run(sequence)
+            node.run(sequence)
             
-            if doraRemains == 0, doraCreated == 10{
-                remainingDoraNode.removeFromParent()
+            if currentNodeCount == 0, createNodeCount == 10{
+                labelTitleNode.removeFromParent()
                 self.addChild(SKSpriteNode(imageNamed: "game_over"))
             }
         }
