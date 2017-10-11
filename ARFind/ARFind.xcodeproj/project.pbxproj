@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A033E21F8DC60F0090D058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A033E11F8DC60F0090D058 /* AppDelegate.swift */; };
+		17A033E41F8DC60F0090D058 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 17A033E31F8DC60F0090D058 /* Scene.sks */; };
+		17A033E61F8DC60F0090D058 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A033E51F8DC60F0090D058 /* Scene.swift */; };
+		17A033E81F8DC60F0090D058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A033E71F8DC60F0090D058 /* ViewController.swift */; };
+		17A033EB1F8DC60F0090D058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A033E91F8DC60F0090D058 /* Main.storyboard */; };
+		17A033ED1F8DC60F0090D058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A033EC1F8DC60F0090D058 /* Assets.xcassets */; };
+		17A033F01F8DC60F0090D058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A033EE1F8DC60F0090D058 /* LaunchScreen.storyboard */; };
+		17A033FB1F8DC60F0090D058 /* ARFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A033FA1F8DC60F0090D058 /* ARFindTests.swift */; };
+		17A034061F8DC60F0090D058 /* ARFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A034051F8DC60F0090D058 /* ARFindUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17A033F71F8DC60F0090D058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A033D61F8DC60F0090D058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A033DD1F8DC60F0090D058;
+			remoteInfo = ARFind;
+		};
+		17A034021F8DC60F0090D058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A033D61F8DC60F0090D058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A033DD1F8DC60F0090D058;
+			remoteInfo = ARFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A033DE1F8DC60F0090D058 /* ARFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A033E11F8DC60F0090D058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A033E31F8DC60F0090D058 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		17A033E51F8DC60F0090D058 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		17A033E71F8DC60F0090D058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17A033EA1F8DC60F0090D058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A033EC1F8DC60F0090D058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A033EF1F8DC60F0090D058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A033F11F8DC60F0090D058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A033F61F8DC60F0090D058 /* ARFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A033FA1F8DC60F0090D058 /* ARFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFindTests.swift; sourceTree = "<group>"; };
+		17A033FC1F8DC60F0090D058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A034011F8DC60F0090D058 /* ARFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A034051F8DC60F0090D058 /* ARFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFindUITests.swift; sourceTree = "<group>"; };
+		17A034071F8DC60F0090D058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A033DB1F8DC60F0090D058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A033F31F8DC60F0090D058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A033FE1F8DC60F0090D058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A033D51F8DC60F0090D058 = {
+			isa = PBXGroup;
+			children = (
+				17A033E01F8DC60F0090D058 /* ARFind */,
+				17A033F91F8DC60F0090D058 /* ARFindTests */,
+				17A034041F8DC60F0090D058 /* ARFindUITests */,
+				17A033DF1F8DC60F0090D058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17A033DF1F8DC60F0090D058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A033DE1F8DC60F0090D058 /* ARFind.app */,
+				17A033F61F8DC60F0090D058 /* ARFindTests.xctest */,
+				17A034011F8DC60F0090D058 /* ARFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A033E01F8DC60F0090D058 /* ARFind */ = {
+			isa = PBXGroup;
+			children = (
+				17A033E11F8DC60F0090D058 /* AppDelegate.swift */,
+				17A033E31F8DC60F0090D058 /* Scene.sks */,
+				17A033E51F8DC60F0090D058 /* Scene.swift */,
+				17A033E71F8DC60F0090D058 /* ViewController.swift */,
+				17A033E91F8DC60F0090D058 /* Main.storyboard */,
+				17A033EC1F8DC60F0090D058 /* Assets.xcassets */,
+				17A033EE1F8DC60F0090D058 /* LaunchScreen.storyboard */,
+				17A033F11F8DC60F0090D058 /* Info.plist */,
+			);
+			path = ARFind;
+			sourceTree = "<group>";
+		};
+		17A033F91F8DC60F0090D058 /* ARFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				17A033FA1F8DC60F0090D058 /* ARFindTests.swift */,
+				17A033FC1F8DC60F0090D058 /* Info.plist */,
+			);
+			path = ARFindTests;
+			sourceTree = "<group>";
+		};
+		17A034041F8DC60F0090D058 /* ARFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17A034051F8DC60F0090D058 /* ARFindUITests.swift */,
+				17A034071F8DC60F0090D058 /* Info.plist */,
+			);
+			path = ARFindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A033DD1F8DC60F0090D058 /* ARFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A0340A1F8DC60F0090D058 /* Build configuration list for PBXNativeTarget "ARFind" */;
+			buildPhases = (
+				17A033DA1F8DC60F0090D058 /* Sources */,
+				17A033DB1F8DC60F0090D058 /* Frameworks */,
+				17A033DC1F8DC60F0090D058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARFind;
+			productName = ARFind;
+			productReference = 17A033DE1F8DC60F0090D058 /* ARFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17A033F51F8DC60F0090D058 /* ARFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A0340D1F8DC60F0090D058 /* Build configuration list for PBXNativeTarget "ARFindTests" */;
+			buildPhases = (
+				17A033F21F8DC60F0090D058 /* Sources */,
+				17A033F31F8DC60F0090D058 /* Frameworks */,
+				17A033F41F8DC60F0090D058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A033F81F8DC60F0090D058 /* PBXTargetDependency */,
+			);
+			name = ARFindTests;
+			productName = ARFindTests;
+			productReference = 17A033F61F8DC60F0090D058 /* ARFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17A034001F8DC60F0090D058 /* ARFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A034101F8DC60F0090D058 /* Build configuration list for PBXNativeTarget "ARFindUITests" */;
+			buildPhases = (
+				17A033FD1F8DC60F0090D058 /* Sources */,
+				17A033FE1F8DC60F0090D058 /* Frameworks */,
+				17A033FF1F8DC60F0090D058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A034031F8DC60F0090D058 /* PBXTargetDependency */,
+			);
+			name = ARFindUITests;
+			productName = ARFindUITests;
+			productReference = 17A034011F8DC60F0090D058 /* ARFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A033D61F8DC60F0090D058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Bolo;
+				TargetAttributes = {
+					17A033DD1F8DC60F0090D058 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					17A033F51F8DC60F0090D058 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17A033DD1F8DC60F0090D058;
+					};
+					17A034001F8DC60F0090D058 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17A033DD1F8DC60F0090D058;
+					};
+				};
+			};
+			buildConfigurationList = 17A033D91F8DC60F0090D058 /* Build configuration list for PBXProject "ARFind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A033D51F8DC60F0090D058;
+			productRefGroup = 17A033DF1F8DC60F0090D058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A033DD1F8DC60F0090D058 /* ARFind */,
+				17A033F51F8DC60F0090D058 /* ARFindTests */,
+				17A034001F8DC60F0090D058 /* ARFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A033DC1F8DC60F0090D058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A033E41F8DC60F0090D058 /* Scene.sks in Resources */,
+				17A033F01F8DC60F0090D058 /* LaunchScreen.storyboard in Resources */,
+				17A033ED1F8DC60F0090D058 /* Assets.xcassets in Resources */,
+				17A033EB1F8DC60F0090D058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A033F41F8DC60F0090D058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A033FF1F8DC60F0090D058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A033DA1F8DC60F0090D058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A033E81F8DC60F0090D058 /* ViewController.swift in Sources */,
+				17A033E61F8DC60F0090D058 /* Scene.swift in Sources */,
+				17A033E21F8DC60F0090D058 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A033F21F8DC60F0090D058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A033FB1F8DC60F0090D058 /* ARFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A033FD1F8DC60F0090D058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A034061F8DC60F0090D058 /* ARFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17A033F81F8DC60F0090D058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A033DD1F8DC60F0090D058 /* ARFind */;
+			targetProxy = 17A033F71F8DC60F0090D058 /* PBXContainerItemProxy */;
+		};
+		17A034031F8DC60F0090D058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A033DD1F8DC60F0090D058 /* ARFind */;
+			targetProxy = 17A034021F8DC60F0090D058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17A033E91F8DC60F0090D058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A033EA1F8DC60F0090D058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17A033EE1F8DC60F0090D058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A033EF1F8DC60F0090D058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A034081F8DC60F0090D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A034091F8DC60F0090D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A0340B1F8DC60F0090D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = ARFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengei.iap.test.ARFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17A0340C1F8DC60F0090D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = ARFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengei.iap.test.ARFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17A0340E1F8DC60F0090D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = ARFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengei.iap.test.ARFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFind.app/ARFind";
+			};
+			name = Debug;
+		};
+		17A0340F1F8DC60F0090D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = ARFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengei.iap.test.ARFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFind.app/ARFind";
+			};
+			name = Release;
+		};
+		17A034111F8DC60F0090D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = ARFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengei.iap.test.ARFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFind;
+			};
+			name = Debug;
+		};
+		17A034121F8DC60F0090D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = ARFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengei.iap.test.ARFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A033D91F8DC60F0090D058 /* Build configuration list for PBXProject "ARFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A034081F8DC60F0090D058 /* Debug */,
+				17A034091F8DC60F0090D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A0340A1F8DC60F0090D058 /* Build configuration list for PBXNativeTarget "ARFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A0340B1F8DC60F0090D058 /* Debug */,
+				17A0340C1F8DC60F0090D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A0340D1F8DC60F0090D058 /* Build configuration list for PBXNativeTarget "ARFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A0340E1F8DC60F0090D058 /* Debug */,
+				17A0340F1F8DC60F0090D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A034101F8DC60F0090D058 /* Build configuration list for PBXNativeTarget "ARFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A034111F8DC60F0090D058 /* Debug */,
+				17A034121F8DC60F0090D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17A033D61F8DC60F0090D058 /* Project object */;
+}
